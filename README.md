@@ -1,16 +1,82 @@
-# React + Vite
+# System Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack business management system for furniture manufacturers to manage employees, customers, quotations, invoices, finances, and daily operations from a single dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Dashboard
+* Employee Management
+* Customer Management
+* Quotations & Invoices
+* Expense & Finance Tracking
+* Product Management
+* Secure Authentication
+* Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:** React, Vite, TypeScript
+
+**Backend:** FastAPI, Python
+
+**Database:** MongoDB
+
+**Tools:** Docker, Docker Compose
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/Sanjiv215/systemManager.git
+cd systemManager
+npm install
+npm run dev
+```
+
+For the backend:
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+---
+
+## Roadmap
+
+* Analytics Dashboard
+* Inventory Management
+* GST Invoicing
+* Reports & Exports
+* Multi-user Roles
+* Cloud Deployment
+
+---
+
+## Contributing
+
+Contributions and suggestions are welcome. Feel free to open an issue or submit a pull request.
+
+---
+
+## License
+
+Licensed under the MIT License.
+
+---
+
+## Author
+
+**Sanjiv Prasad**
+
+GitHub: https://github.com/Sanjiv215
+
+---
+
+If you find this project useful, consider giving it a Star.
